@@ -1,0 +1,23 @@
+Open Source Minishop
+Như đã hẹn, mình xin gửi Github dự án Minishop gồm Source Code cho các module sau:
+1. API: Back-end APIs cho các Webapp và hệ thống thứ 3
+Combo: .NET Core 6.0, MSSQL, Firebase Auth, JWT, Docker, Swagger
+2. ERP: Webapp trang quản lý khách hàng, đơn hàng, kho và báo cáo
+Combo: Vue.js 2.0, Firebase, Docker
+3. Minishop: Webapp trang bán hàng, giỏ hàng, đặt hàng, bài viết.
+Template mình mua từ Themeforest nên code con này hơi bầy hầy =)))
+Combo: Nuxt.js, Docker
+Link dự án
+Github: https://github.com/nichealpham/minishop-composer
+Demo: https://minishop.website/
+Video: https://youtu.be/O1UGBoUi6eU
+Cách sử dụng
+Sử dụng docker-compose: sau khi chỉnh lại cấu hình trong file .env, bạn sử dụng docker-compose run toàn hệ thống, phù hợp triển khai nhanh solution trên server.
+Build custom image: bạn chỉnh lại source code, dùng docker trong từng module để build image, sau đó deploy lên các cloud service như GCP, AWS. Phù hợp với cả các Serverless service (mình đang dùng Cloud Run của GCP để tiết kiệm tối đa chi phí)
+Kế hoạch tiếp theo
+Mình xin liệt kê vài ý tưởng mà bản thân muốn thực hiện cho trong các bước tiếp theo, cũng như record lại video chia sẻ đến mọi người.
+Trang chủ bán hàng cho từng cửa hàng
+Trang cá nhân cho từng người mua hàng
+Template để người bán hàng lựa chọn
+Trang chủ thương mại điện tử tổng hợp sản phẩm từ tất cả các cửa hàng
+Tích hợp thanh toán + đơn vị vận chuyển
